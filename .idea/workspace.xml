@@ -2,208 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce6f035-f727-4c15-b695-ae7d8d775e3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_1_2_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_native_1_2_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_a64asm_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_constants_0_9_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_ffi_2_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_x86asm_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1u2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jakewharton_byteunits_byteunits_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_agrona_agrona_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lmdbjava_lmdbjava_native_linux_x86_64_0_9_24_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lmdbjava_lmdbjava_native_osx_x86_64_0_9_24_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lmdbjava_lmdbjava_native_windows_x86_64_0_9_24_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmdbjava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/BufferProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/ByteArrayProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/ByteBufProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/ByteBufferProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/CopyFlags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Cursor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/CursorIterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Dbi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/DbiFlags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/DirectBufferProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Env.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/EnvFlags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/EnvInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/GetOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/KeyRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/KeyRangeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/KeyVal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/LmdbException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/LmdbNativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/MaskedFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Meta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/PutFlags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/ResultCodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/SeekOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Stat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Txn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/TxnFlags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/UnsafeAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/Verifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lmdbjava/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/ByteBufferProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/ComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/CursorIterableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/CursorParamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/CursorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/DbiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/EnvTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/KeyRangeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/MaskedFlagTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/MetaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/ResultCodeMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/TutorialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/TxnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/VerifierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lmdbjava/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/BufferProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteArrayProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufferProxy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufferProxy$AbstractByteBufferProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufferProxy$BufferMustBeDirectException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufferProxy$ReflectiveProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufferProxy$UnsafeProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ByteBufferProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/CopyFlags.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Cursor$ClosedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Cursor$FullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Cursor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/CursorIterable$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/CursorIterable$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/CursorIterable$KeyVal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/CursorIterable$State.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/CursorIterable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$BadDbiException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$BadValueSizeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$DbFullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$IncompatibleException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$KeyExistsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$KeyNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi$MapResizedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Dbi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/DbiFlags.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/DirectBufferProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$AlreadyClosedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$AlreadyOpenException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$FileInvalidException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$InvalidCopyDestination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$MapFullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$ReadersFullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env$VersionMismatchException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Env.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/EnvFlags.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/EnvInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/GetOp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/KeyRange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/KeyRangeType$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/KeyRangeType$CursorOp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/KeyRangeType$IteratorOp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/KeyRangeType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/KeyVal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Library$ComparatorCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Library$Lmdb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Library$MDB_envinfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Library$MDB_stat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Library.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException$ConstantDerivedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException$PageCorruptedException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException$PageFullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException$PageNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException$PanicException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException$TlsFullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/LmdbNativeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/MaskedFlag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Meta$Version.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Meta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/PutFlags.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/ResultCodeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/SeekOp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Stat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$BadException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$BadReaderLockException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$EnvIsReadOnly.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$IncompatibleParent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$NotReadyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$NotResetException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$ReadOnlyRequiredException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$ReadWriteRequiredException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$ResetException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$State.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn$TxFullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Txn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/TxnFlags.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/UnsafeAccess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/lmdbjava/Verifier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ByteBufferProxyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$ByteArrayRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$ByteBufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$ComparatorResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$ComparatorRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$DirectBufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$GuavaSignedBytes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$GuavaUnsignedBytes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$NettyRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest$StringRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ComparatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorIterableTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest$AbstractBufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest$BufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest$ByteArrayRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest$ByteBufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest$DirectBufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest$NettyBufferRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorParamTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/CursorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/DbiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/EnvTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/KeyRangeTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/KeyRangeTest$FakeCursor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/KeyRangeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/LibraryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/MaskedFlagTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/MetaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/MyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/ResultCodeMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/TestUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/TutorialTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/TxnTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/lmdbjava/VerifierTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/execute/LmDbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -214,11 +15,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/execute/LmDbController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -226,7 +46,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/execute/MyTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/execute/LmDb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/execute/LmDbController.java" />
       </list>
     </option>
   </component>
@@ -249,11 +72,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="LmdbJava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="LmdbDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="LmdbJava" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="LmdbDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -271,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,11 +107,40 @@
               <item name="LmDbDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lmdbjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LmDbDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lmdbjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LmDbDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lmdbjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LmDbDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lmdbjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LmDbDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="execute" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -303,6 +156,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.execute" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -374,16 +232,26 @@
       <updated>1612254912024</updated>
       <workItem from="1612254913338" duration="526000" />
       <workItem from="1612255462113" duration="25000" />
+      <workItem from="1612255502843" duration="517000" />
     </task>
+    <task id="LOCAL-00001" summary="新建LmDbDemo">
+      <created>1612255562645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612255562645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551000" />
+    <option name="totallyTimeSpent" value="1068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="917" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -393,7 +261,7 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,6 +292,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建LmDbDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建LmDbDemo" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/lmdbjava/ResultCodeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -432,18 +304,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/lmdbjava/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2304">
           <caret line="136" column="45" selection-start-line="135" selection-start-column="27" selection-end-line="143" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/execute/LmDbController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

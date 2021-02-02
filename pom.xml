@@ -11,7 +11,7 @@
     <artifactId>lmdbjava</artifactId>
     <version>0.8.2-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>LmdbJava</name>
+    <name>LmdbDemo</name>
     <description>Low latency Java API for the ultra-fast, embedded Symas Lightning Database (LMDB)</description>
     <properties>
         <github.org>lmdbjava</github.org>
