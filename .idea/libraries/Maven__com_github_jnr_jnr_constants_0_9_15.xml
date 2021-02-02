@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.jnr:jnr-constants:0.9.15">
+    <CLASSES>
+      <root url="jar://E:/javaTool/apache-maven-3.1.1/.m2/repository/com/github/jnr/jnr-constants/0.9.15/jnr-constants-0.9.15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/javaTool/apache-maven-3.1.1/.m2/repository/com/github/jnr/jnr-constants/0.9.15/jnr-constants-0.9.15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/javaTool/apache-maven-3.1.1/.m2/repository/com/github/jnr/jnr-constants/0.9.15/jnr-constants-0.9.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
