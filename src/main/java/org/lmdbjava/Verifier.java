@@ -157,10 +157,10 @@ public final class Verifier implements Callable<Long> {
    * Execute the verifier for the given duration.
    *
    * <p>
-   * This provides a simple way to execute the verifier for those applications
+   * This provides a simple way to controller the verifier for those applications
    * which do not wish to manage threads directly.
    *
-   * @param duration amount of time to execute
+   * @param duration amount of time to controller
    * @param unit     units used to express the duration
    * @return number of database rows successfully verified
    */

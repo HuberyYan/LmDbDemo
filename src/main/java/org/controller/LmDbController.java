@@ -1,4 +1,4 @@
-package org.execute;
+package org.controller;
 
 import org.lmdbjava.*;
 
@@ -23,7 +23,7 @@ public class LmDbController {
 
     Env<ByteBuffer> env;
 
-    public LmDbController(String filePath){
+    public LmDbController(String filePath) {
         path = new File(filePath);
         env = create(PROXY_OPTIMAL)
                 .setMapSize(256 * 1024 * 1024)
@@ -43,11 +43,11 @@ public class LmDbController {
      */
     public void putValueToLmDb(String dbName, String key, byte[] value) {
         final Dbi<ByteBuffer> db = env.openDbi(dbName, MDB_CREATE);
+        ByteBuffer bb_key = bb(key);
+        ByteBuffer bb_val = bb(value);
+        // 第一种,需要配合 env.close()使用，这里不推荐
+//        db.put(bb_key, bb_val);
         try (Txn<ByteBuffer> txn = env.txnWrite()) {
-            ByteBuffer bb_key = bb(key);
-            ByteBuffer bb_val = bb(value);
-            // 第一种
-//            db.put(txn, bb_key, bb_val);
             // 第二种
             Cursor<ByteBuffer> cursor = db.openCursor(txn);
             cursor.put(bb_key, bb_val);
@@ -85,6 +85,28 @@ public class LmDbController {
     }
 
     /**
+     * 根据指定的key删除数据
+     *
+     * @param dbName
+     * @param key
+     * @return
+     */
+    public void deleteValueByKey(String dbName, String key) {
+        final Dbi<ByteBuffer> db = env.openDbi(dbName, MDB_CREATE);
+        ByteBuffer bb_key = bb(key);
+        // 第一种
+        db.delete(bb_key);
+        try (Txn<ByteBuffer> txn = env.txnWrite()) {
+            // 第二种
+            Cursor<ByteBuffer> cursor = db.openCursor(txn);
+            cursor.get(bb_key, GetOp.MDB_SET_KEY);
+            cursor.delete();
+            // 记得关闭缓冲区
+            cursor.close();
+        }
+    }
+
+    /**
      * 获取库下所有的数据
      *
      * @param dbName
@@ -107,6 +129,15 @@ public class LmDbController {
             cursor.close();
         }
         return map;
+    }
+
+    /**
+     * 根据dbname获取该库下的数量
+     * @param dbName
+     * @return
+     */
+    public long getDbCount(String dbName) {
+        return getAllValueByDbName(dbName).size();
     }
 
     /**
@@ -154,6 +185,16 @@ public class LmDbController {
         byte[] valueByKey = myTest.getValueByKey(dbName, key2);
         String s = new String(valueByKey);
         System.out.println("getvalue = " + s);
+
+        myTest.deleteValueByKey(dbName, key1);
+        Map<String, byte[]> d_map = myTest.getAllValueByDbName(dbName);
+        for (Map.Entry<String, byte[]> entry : d_map.entrySet()) {
+            String key = entry.getKey();
+            byte[] value = entry.getValue();
+            String d_s = new String(value);
+            System.out.println("d_key = " + key);
+            System.out.println("d_val = " + d_s);
+        }
     }
 
 }
