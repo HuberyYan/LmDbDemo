@@ -59,6 +59,28 @@ public class LmDbController {
     }
 
     /**
+     * 向库中插入数据
+     *
+     * @param dbName
+     * @param dbVal
+     */
+    public void putMapToLmDb(String dbName, Map<byte[], byte[]> dbVal) {
+        final Dbi<ByteBuffer> db = env.openDbi(dbName, MDB_CREATE);
+        try (Txn<ByteBuffer> txn = env.txnWrite()) {
+            Cursor<ByteBuffer> cursor = db.openCursor(txn);
+            for (Map.Entry<byte[], byte[]> entry : dbVal.entrySet()) {
+                ByteBuffer key = ByteBuffer.allocateDirect(entry.getKey().length);
+                ByteBuffer val = ByteBuffer.allocateDirect(entry.getValue().length);
+                key.put(entry.getKey()).flip();
+                val.put(entry.getValue()).flip();
+                cursor.put(key, val);
+            }
+            cursor.close();
+            txn.commit();
+        }
+    }
+
+    /**
      * 根据指定的key获取数据
      *
      * @param dbName
@@ -132,12 +154,47 @@ public class LmDbController {
     }
 
     /**
+     * 获取库下所有的数据
+     *
+     * @param dbName
+     * @return
+     */
+    public Map<String, byte[]> getAllIndexByDbName(String dbName) {
+        final Dbi<ByteBuffer> db = env.openDbi(dbName, MDB_CREATE);
+        Map<String, byte[]> map = new HashMap<>();
+        try (Txn<ByteBuffer> txn = env.txnRead()) {
+            Cursor<ByteBuffer> cursor = db.openCursor(txn);
+            while (cursor.next()) {
+                ByteBuffer key = cursor.key();
+                ByteBuffer val = cursor.val();
+                byte[] k = new byte[key.capacity()];
+                byte[] v = new byte[val.capacity()];
+                key.get(k);
+                val.get(v);
+                map.put(new String(k), v);
+            }
+            cursor.close();
+        }
+        return map;
+    }
+
+    /**
      * 根据dbname获取该库下的数量
+     *
      * @param dbName
      * @return
      */
     public long getDbCount(String dbName) {
         return getAllValueByDbName(dbName).size();
+    }
+
+    /**
+     * 关闭 LMDB environment
+     */
+    public void closeEnv() {
+        if (env != null) {
+            env.close();
+        }
     }
 
     /**
